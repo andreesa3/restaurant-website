@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Benvenuti al Ristorante, il luogo perfetto per gustare piatti prelibati preparati con ingredienti freschi e servizio cordiale. Scopri il nostro menu e prenota oggi stesso!">
+  <link rel="stylesheet" href="style.css">
+  <title>Ristorante</title>
+</head>
+
+<body>
+  <!-- ========== Header Section ========== -->
+  <header>
+    <div class="nav-container">
+      <a id="logo" class="cursive" href="index.html"><img src="./utils/icons/LOGO.svg" alt=""></a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#about">Chi siamo</a></li>
+          <li><a href="#services">Servizi</a></li>
+          <li><a href="#menu">Menù</a></li>
+          <li><a href="#contacts" class="book-nav-link">Prenota</a></li>
+        </ul>
+      </nav>
+      <div class="nav-right">
+        <a href="#" class="language" id="en-version">EN</a>
+        <span>-</span>
+        <a href="#" class="language" id="it-version">IT</a>
+        <button class="btn">Prenota Ora</button>
+        <svg id="burger" height="18" viewBox="0 0 30 18" fill="white" xmlns="http://www.w3.org/2000/svg">
+          <line class="line" y1="1" x2="49" y2="1" stroke="white" stroke-width="3" />
+          <line class="line" y1="9" x2="23" y2="9" stroke="white" stroke-width="3" />
+          <line class="line" y1="17" x2="13" y2="17" stroke="white" stroke-width="3" />
+        </svg>
+      </div>
+    </div>
+  </header>
+
+
+  <main>
+    <!-- ========== Hero Section ========== -->
+    <section id="hero" class="hero-section">
+      <div class="container hero-container watch">
+        <p class="hero-welcome cursive">Benvenuti nel nostro ristorante</p>
+        <h1 class="hero-title">Un viaggio culinario di gusto e tradizione</h1>
+        <p class="hero-description">Pietanze cucinate con cura e attenzione per garantirvi un’esperienza unica</p>
+        <button class="btn hero-button">Prenota Ora</button>
+      </div>
+    </section>
+
+    <!-- ========== About Section ========== -->
+    <section id="about" class="about-section">
+      <div class="container about-container">
+        <div class="about-text-box watch about-1">
+          <h2 class="section-title watch about-title-st">Chi siamo</h2>
+          <p>
+            Situati ad un passo dal cuore della città, vi presentiamo il nostro ristorante, un luogo dove potrete
+            sentirvi subito a casa. La nostra missione è offrirvi un'esperienza gastronomica indimenticabile, grazie al
+            nostro servizio attento e professionale. Venite a trovarci se volete scoprire i veri sapori tradizionali.
+          </p>
+        </div>
+        <img class="about-image watch about-img-1" src="./utils/images/about-img1.avif" alt="">
+        <div class="about-text-box watch about-2">
+          <h2 class="section-title watch about-title-nd">I nostri prodotti</h2>
+          <p>Da noi vige la regola del km 0 ed è per questo motivo che ogni portata è realizzata con cura, utilizzando
+            solo ingredienti freschi e locali, selezionati dal nostro
+            chef che, con la sua esperienza decennale, dona ai suoi piatti armonia e unicità.</p>
+        </div>
+        <img class="about-image watch about-img-2" src="./utils/images/about-img1.avif" alt="">
+      </div>
+    </section>
+
+    <!-- ========== Services Section ========== -->
+    <section id="services" class="services-section">
+      <div class="container services-container">
+        <h2 class="section-title watch services-title">I nostri Servizi</h2>
+        <div class="services-box">
+          <div class="service-card">
+            <img src="./utils/icons/food-icon.svg" class="service-icon watch" alt="food icon">
+            <p class="watch">Prodotti freschi e locali</p>
+            <small class="watch">Utilizziamo solo ingredienti acquistati da produttori locali</small>
+          </div>
+          <div class="service-card">
+            <img src="./utils/icons/service-icon.svg" class="service-icon watch" alt="servie icon">
+            <p class="watch">Servizio e professionalità</p>
+            <small class="watch">Personale cordiale e pronto a soddisfare le vostre richieste</small>
+          </div>
+          <div class="service-card">
+            <img src="./utils/icons/chef-icon.svg" class="service-icon watch" alt="chef icon">
+            <p class="watch">Esperienza e passione</p>
+            <small class="watch">Piatti preparati a regola d’arte dal nostro chef</small>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== Menu Section ========== -->
+    <section id="menu" class="menu-section">
+      <div class="container menu-container">
+        <h2 class="section-title watch menu-title">Antipasti</h2>
+        <div class="menu-box watch">
+          <div class="menu-card">
+            <div class="menu-text-box">
+              <p class="menu-name">Antipasto della casa</p>
+              <p class="menu-price">€12.00</p>
+            </div>
+            <small>Ingredienti: Selezione di salumi e formaggi locali, bruschette miste, crostini e altre
+              specialità.</small>
+          </div>
+          <div class="menu-card">
+            <div class="menu-text-box">
+              <p class="menu-name">Carpaccio di manzo</p>
+              <p class="menu-price">€12.00</p>
+            </div>
+            <small>Ingredienti: Fette sottili di manzo crudo, rucola, scaglie di Parmigiano-Reggiano, olio extravergine
+              di
+              oliva, succo di limone, sale e pepe.</small>
+          </div>
+          <div class="menu-card">
+            <div class="menu-text-box">
+              <p class="menu-name">Caprese di bufala</p>
+              <p class="menu-price">€8.00</p>
+            </div>
+            <small>Ingredienti: Mozzarella di bufala, pomodori, basilico fresco, olio extravergine di oliva, aceto
+              balsamico, sale e pepe.</small>
+          </div>
+          <div class="menu-card">
+            <div class="menu-text-box">
+              <p class="menu-name">Funghi trifolati</p>
+              <p class="menu-price">€7.00</p>
+            </div>
+            <small>Ingredienti: Funghi (champignon o porcini), aglio, prezzemolo, olio extravergine di oliva, succo di
+              limone, sale e pepe.</small>
+          </div>
+          <div class="menu-card">
+            <div class="menu-text-box">
+              <p class="menu-name">Bruschette al pomodoro</p>
+              <p class="menu-price">€5.00</p>
+            </div>
+            <small>Ingredienti: Pane croccante con pomodoro, cipolla, olio extravergine di oliva, sale</small>
+          </div>
+        </div>
+
+        <!-- Plates Icon -->
+        <div class="menu-icons-box watch mini-container">
+          <div class="menu-icon-card" id="starters">
+            <img src="./utils/icons/starter-icon.svg" alt="icona antipasto">
+            <small>Antipasti</small>
+          </div>
+          <div class="menu-icon-card" id="first">
+            <img src="./utils/icons/first-icon.svg" alt="icona primi">
+            <small>Primi</small>
+          </div>
+          <div class="menu-icon-card" id="second">
+            <img src="./utils/icons/second-icon.svg" alt="icona secondi">
+            <small>Secondi</small>
+          </div>
+          <div class="menu-icon-card" id="dessert">
+            <img src="./utils/icons/dessert-icon.svg" alt="icona dolci">
+            <small>Dolci</small>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== Contact ========== -->
+    <section id="contacts" class="contact-section">
+      <div class="booking-container mini-container">
+        <h2 class="section-title watch booking-title">Prenota Ora</h2>
+        <form class="reservation-form watch">
+          <!-- Name -->
+          <div class="form-group">
+            <input type="text" id="name" name="name" placeholder="Nome e Cognome" required>
+          </div>
+
+          <div class="form-date-box">
+            <!-- Telephone Number -->
+            <div class="form-group">
+              <input type="tel" id="tel" name="tel" placeholder="Telefono" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                required>
+            </div>
+
+            <!-- People Select -->
+            <div class="select-wrapper">
+              <i class="fas fa-user"></i>
+              <select id="person" name="person" required>
+                <option value="" disabled selected>Persone</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-date-box">
+            <!-- Date Select -->
+            <div class="form-group select-wrapper">
+              <i class="fas fa-calendar"></i>
+              <input type="date" id="date" name="date" required>
+            </div>
+            <!-- Time Select -->
+            <div class="select-wrapper">
+              <i class="fas fa-clock"></i>
+              <select id="time" name="time" required>
+                <option value="" disabled selected>Orario</option>
+                <optgroup label="Mattina">
+                  <option value="10:00">10 : 00</option>
+                  <option value="11:00">11 : 00</option>
+                  <option value="12:00">12 : 00</option>
+                  <option value="13:00">13 : 00</option>
+                  <option value="14:00">14 : 00</option>
+                </optgroup>
+                <optgroup label="Sera">
+                  <option value="18:00">18 : 00</option>
+                  <option value="19:00">19 : 00</option>
+                  <option value="20:00">20 : 00</option>
+                  <option value="21:00">21 : 00</option>
+                  <option value="22:00">22 : 00</option>
+                  <option value="22:30">22 : 30</option>
+                </optgroup>
+              </select>
+            </div>
+          </div>
+          <!-- Textarea -->
+          <div class="form-group">
+            <textarea id="message" name="message" placeholder="Richieste speciali" rows="8"></textarea>
+          </div>
+          <!-- Button -->
+          <button type="submit" class="btn book-btn mini-container">Prenota</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- ========== Gallery Section ========== -->
+    <section id="gallery" class="gallery-section">
+      <div class="container gallery-container">
+        <h2 class="section-title watch gallery-title">Gallery</h2>
+        <!-- Collage -->
+        <img class="collage watch" src="./utils/images/collage.png" alt="collage">
+        <div class="review-box watch mini-container">
+          <!-- Review Text -->
+          <p class="review-text">Cucina e servizio rendono questo ristorante un'esperienza indimenticabile.</p>
+          <!-- Reviewer Name -->
+          <div class="review-avatar-box cursive">
+            <img src="./utils/images/avatar.png" class="review-avatar" alt="avatar">
+            <p>Mario Rossi - 5,0 ★</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="container footer-container">
+      <div class="footer-logo footer-box">
+        <img src="./utils/icons/LOGO.svg" alt="footer-logo">
+      </div>
+      <div class="footer-links footer-box">
+        <p class="footer-title">Link utili</p>
+        <ul class="footer-list">
+          <li><a class="footer-li" href="index.html">HOME</a></li>
+          <li><a class="footer-li" href="#about">CHI SIAMO</a></li>
+          <li><a class="footer-li" href="#menu">MENÙ</a></li>
+          <li><a class="footer-li" href="#contact">PRENOTA</a></li>
+        </ul>
+      </div>
+      <div class="footer-contacts footer-box">
+        <p class="footer-title">Contatti</p>
+        <div class="footer-card">
+          <i class="fa-solid fa-phone"></i>
+          <p class="footer-text">+39 123-456789</p>
+        </div>
+        <div class="footer-card">
+          <i class="fa-solid fa-envelope" style="color: #ffffff;"></i>
+          <p class="footer-text">info@ristorante.com</p>
+        </div>
+        <div class="footer-card">
+          <i class="fa-solid fa-location-dot" style="color: #ffffff;"></i>
+          <p class="footer-text">Via Roma, 12345, Bronte(CT)</p>
+        </div>
+      </div>
+      <div class="footer-hours-socials footer-box">
+        <div class="footer-hours">
+          <p class="footer-title">Orari</p>
+          <p class="footer-text">Lun - Dom</p>
+          <p class="footer-text">10 : 00 - 14 : 30</p>
+          <p class="footer-text">18 : 00 - 21 : 30</p>
+        </div>
+        <div class="footer-icons footer-box">
+          <a href="#"><img src="./utils/icons/facebook-icon.svg" alt="Instagram"></a>
+          <a href="#"><img src="./utils/icons/twitter-icon.svg" alt="Twitter"></a>
+          <a href="#"><img src="./utils/icons/insta-icon.svg" alt="Facebook"></a>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">© 2023 All rights reserved | Made by <a href="https://github.com/andreesa3"
+        class="github">Andrea Saitta</a></div>
+  </footer>
+  <script src="https://kit.fontawesome.com/f96eeace04.js" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.0/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.0/ScrollTrigger.min.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
