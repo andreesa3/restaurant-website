@@ -56,11 +56,14 @@ navListArr.forEach(link => {
 })
 
 window.addEventListener('DOMContentLoaded', () => {
+  if (window.innerWidth > 768) {
+    bookNavLink.style.display = 'none';
+  }
   window.addEventListener('resize', () => {
-    if (window.innerWidth >= 768) {
-      bookNavLink.style.display = 'none';
-    } else {
+    if (window.innerWidth < 768) {
       bookNavLink.style.display = 'block';
+    } else {
+      bookNavLink.style.display = 'none';
     }
   })
 })
