@@ -435,6 +435,7 @@ select {
 .review-text {
   font-size: var(--font-500);
   padding-bottom: 1rem;
+  font-style: italic;
 }
 .review-avatar-box {
   display: flex;
